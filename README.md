@@ -4,7 +4,7 @@ FastAPI Python Docker Fish Shell
 
 A powerful, interactive FastAPI project generator that creates production-ready APIs with Docker support, Git integration, and MMFFDev branding.
 
-## ✨ Features
+### ✨ Features
 
 - 🚀 **Interactive CLI** - Guided prompts with validation for project name, port, Docker, and Git
 - 📁 **Smart Structure** - Production-ready project layout with separation of concerns (api, core, models, schemas, services)
@@ -17,7 +17,7 @@ A powerful, interactive FastAPI project generator that creates production-ready 
 - 🧪 **Test Scripts** - Built-in API testing script to verify all endpoints
 - 🐚 **Fish Shell Optimized** - Beautiful colored output and native Fish syntax
 
-## 🚀 Quick Start
+### 🚀 Quick Start
 
 ### Prerequisites
 - Python 3.9+
@@ -27,12 +27,12 @@ A powerful, interactive FastAPI project generator that creates production-ready 
 
 ### Create Your First Project
 ./new-fastapi.fish
-# Follow the prompts:
-# 📁 Enter project name: myawesomeapi
-# 🔌 Enter port number [default: 8000]: 
-# 🐳 Include Docker support? [default: y]: y
-# 🔧 Initialize Git repository? [default: y]: y
-# 🌿 Create Dev branch? [default: y]: y
+Follow the prompts:
+📁 Enter project name: myawesomeapi
+🔌 Enter port number [default: 8000]: 
+🐳 Include Docker support? [default: y]: y
+🔧 Initialize Git repository? [default: y]: y
+🌿 Create Dev branch? [default: y]: y
 
 >FISH
 cd ~/Documents/FastAPI\ Projects/MyNewAPI
