@@ -1,0 +1,67 @@
+# =============================================================================
+# FastAPI Projects GitIgnore
+# =============================================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.python-version
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.envrc
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Project specific
+**/__pycache__/
+**/*.pyc
+**/.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# Keep your fish file and README
+!new-fastapi.fish
+!README.md
+!*.md
