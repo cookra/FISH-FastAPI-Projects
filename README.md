@@ -68,18 +68,13 @@ your-project-name/
 └── README.md
 
 ### Configuration
-> Edit: new-fastapi.fish
+Edit: new-fastapi.fish
 set -g STUDIO_NAME "MMFFDev"
 set -g DEFAULT_GREETING "Welcome to the MMFFDev"
 set -g DEFAULT_PORT 8000
 set -g API_VERSION "1.0.0"
 set -g BASE_DIR ~/Documents/FastAPI\ Projects
 
-### Docker Commands
-docker-compose up -d
-docker-compose logs -f
-docker-compose down
-docker-compose up -d --build
 
 ### Testing
 ./scripts/test.fish
