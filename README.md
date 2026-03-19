@@ -26,9 +26,7 @@ A powerful, interactive FastAPI project generator that creates production-ready 
 - Git (optional)
 
 ### Create Your First Project
-
->./new-fastapi.fish
-
+./new-fastapi.fish
 # Follow the prompts:
 # 📁 Enter project name: myawesomeapi
 # 🔌 Enter port number [default: 8000]: 
@@ -36,11 +34,12 @@ A powerful, interactive FastAPI project generator that creates production-ready 
 # 🔧 Initialize Git repository? [default: y]: y
 # 🌿 Create Dev branch? [default: y]: y
 
->cd ~/Documents/FastAPI\ Projects/MyNewAPI
->./scripts/run.fish
->./scripts/docker-run.sh
->./scripts/test.fish
->open http://localhost:8000/docs
+>FISH
+cd ~/Documents/FastAPI\ Projects/MyNewAPI
+./scripts/run.fish
+./scripts/docker-run.sh
+./scripts/test.fish
+open http://localhost:8000/docs
 
 ### Project Structure
 your-project-name/
@@ -69,9 +68,7 @@ your-project-name/
 └── README.md
 
 ### Configuration
-
-!!! Edit: new-fastapi.fish
-
+> Edit: new-fastapi.fish
 set -g STUDIO_NAME "MMFFDev"
 set -g DEFAULT_GREETING "Welcome to the MMFFDev"
 set -g DEFAULT_PORT 8000
@@ -79,23 +76,23 @@ set -g API_VERSION "1.0.0"
 set -g BASE_DIR ~/Documents/FastAPI\ Projects
 
 ### Docker Commands
->docker-compose up -d
->docker-compose logs -f
->docker-compose down
-.docker-compose up -d --build
+docker-compose up -d
+docker-compose logs -f
+docker-compose down
+docker-compose up -d --build
 
 ### Testing
->./scripts/test.fish
->curl http://localhost:8000/
->curl http://localhost:8000/health
->curl http://localhost:8000/api/info
->curl "http://localhost:8000/items/42?q=test"
+./scripts/test.fish
+curl http://localhost:8000/
+curl http://localhost:8000/health
+curl http://localhost:8000/api/info
+curl "http://localhost:8000/items/42?q=test"
 
 ### Contributing
->docker-compose up -d
->docker-compose logs -f
->docker-compose down
->docker-compose up -d --build
+docker-compose up -d
+docker-compose logs -f
+docker-compose down
+docker-compose up -d --build
 
 ### Licensing
 MIT © MMFFDev
